@@ -41,18 +41,43 @@
 <hr size="2" width="80%" align="center" noshade color="white">
 
 <!--Form-->
-<form action=""> 
+<form action="http://vip.groupehn.com:20003/html/infospost.php">
+    
+
     <h1>Contact Us:</h1>
     <p>Have a question or comment for us? Submit down below <br>
     and we'll get back to you as soon as we can.</p>
-    <h3>Name</h3>
-    <input type="text" name="Name" placeholder="Name">
+    <h3>First Name</h3>
+    <input class="yourclass" type="text" name="firstname" required/>
+    <h3>Last Name</h3>
+    <input class="yourclass" type="text" name="lasttname" required/>
     <h3>Email</h3>
-    <input type="text" name="Email" placeholder="Email">
+    <input class="yourclass" type="email" name="email" placeholder="Email" required/>
     <h3>Questions & Comments</h3>
-    <textarea name="Questions & Comments" placeholder="Leave your comments here!"></textarea>
-    <input style="cursor:pointer" type="button" value="Enviar" id="button">
+    <textarea class="yourclass" name="request" placeholder="Leave your comments here!" required></textarea>
+
+    <!--country-->
+    <div class="pais">
+        <h3>Country:</h3>
+        <select name="country" class="selcou" required>
+            <option value="country1">Select</option>
+            <option value="country2">Spain</option>
+            <option value="country3">France</option>
+        </select>
+    </div>
+    <!--button-->
+    <input type="submit" value="Enviar"> 
 </form>
+   
+
+    
+    
+    
+    
+   
+
+</form>
+
 
 <!--Footer-->
 <footer class="footer">

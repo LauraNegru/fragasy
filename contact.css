@@ -119,17 +119,22 @@ textarea{
     max-height: 100px;
     min-width: 490px;
     max-width: 100px;
-	
 }
-#boton{
-    background:#f29edc;
-    color:black;
-    padding: 5px;
-   
+
+.pais{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
-#boton:hover{
+.selcou{
+    margin-top: -15px;
+}
+
+
+#button:hover{
     cursor: pointer;
 }
+
 footer{
     float:left;
     padding:1%;
