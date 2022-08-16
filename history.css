@@ -1,0 +1,99 @@
+body{
+    background-color:  rgba(240, 224, 237, 0.863) ;
+   
+}
+
+.home{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color:white;
+    text-decoration: none;
+}
+
+
+header{
+	width: 100%;
+}
+
+.logo{
+	max-height: 100px;
+	max-width: 100px;
+	cursor: pointer;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background:rgba(240, 224, 237, 0.863);
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 10px 40px;
+	color: rgb(10, 66, 104);
+	font-family: Arial;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #650848;
+	transition: all .3s; 
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #f9fbfc;
+	width: 150%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #650848;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+    background-color: White;
+}
+
+
+.text{
+    margin-left: 100px;
+	padding-left: 20px;
+    font-size: large;
+    font-family: Arial;
+	color: #41062e;
+}
+
+footer{
+    float:left;
+    padding:1%;
+    width: 100%;
+    background-color: rgba(240, 224, 237, 0.863);
+    text-align: center; 
+    color:black; 
+    font-size: 15px; 
+}
+
